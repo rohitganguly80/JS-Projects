@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: aquamarine;
+text-align: center;
+}
+.contain{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    
+}
+.button{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(27, 109, 138);
+    font-size: 8vmin;
+    color: antiquewhite;
+}
+#reset{
+    height: 5vmin;
+    width: 8vmin;
+    border-radius: 10px;
+    border: none;
+    color: antiquewhite;
+    background-color: black;
+}
